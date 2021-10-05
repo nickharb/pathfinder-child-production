@@ -1,0 +1,14 @@
+﻿id,country,trade_1.1,trade_1.2,trade_2.1,trade_3.1,trade_3.2
+australia,Australia,0.013,0.007,97.55,0.81,0.92
+canada,Canada,0.023,0.015,95.89,0.79,0.96
+china,China,0.127,0.051,92.55,0.58,0.49
+china-2010,China 2010,0.089,0.050,90.26,0.57,0.51
+france,France,0.030,0.040,93.84,0.79,0.88
+germany,Germany,0.071,0.052,93.84,0.82,0.86
+italy,Italy,0.024,0.015,93.84,0.69,0.87
+japan,Japan,0.035,0.029,91.93,0.80,0.90
+open-economy-avg,Open Economy Avg,0.027,0.016,93.03,0.72,0.89
+south-korea,South Korea,0.038,0.033,85.93,0.78,0.86
+spain,Spain,0.017,0.013,93.84,0.79,0.88
+united-kingdom,United Kingdom,0.027,0.046,93.84,0.83,0.92
+united-states,United States,0.108,0.096,89.83,0.79,0.92

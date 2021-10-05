@@ -1,0 +1,14 @@
+﻿id,country,competition_1.1,competition_2.1,competition_3.1,competition_4.1
+australia,Australia,0.80,3.56,4.23,0.85
+canada,Canada,0.50,2.96,4.26,0.84
+china,China,0.94,0.04,2.23,0.75
+china-2010,China 2010,0.94,0.00,2.09,0.56
+france,France,0.95,0.63,3.91,0.96
+germany,Germany,0.96,1.73,4.12,0.98
+italy,Italy,0.96,2.88,2.78,0.95
+japan,Japan,0.91,3.17,4.04,0.96
+open-economy-avg,Open Economy Avg,0.88,3.21,3.86,0.88
+south-korea,South Korea,0.88,3.42,3.69,0.93
+spain,Spain,0.94,4.58,3.48,0.98
+united-kingdom,United Kingdom,0.95,4.39,4.10,0.96
+united-states,United States,0.95,4.78,3.96,0.93

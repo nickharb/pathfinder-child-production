@@ -1,0 +1,14 @@
+﻿id,country,fdi,growth,innovation,competition,portfolio,trade
+australia,Australia,7.52,5.95,4.01,7.69,7.31,5.69
+canada,Canada,9.53,5.58,2.81,5.69,9.05,5.79
+china,China,2.9,3,2.5,3.72,0.7,4.29
+china-2010,China 2010 ,2.1,1.19,0.8,2.35,0,3.04
+france,France,7.26,6.4,4.23,7.22,9.18,5.76
+germany,Germany,4.96,4.04,6.07,8.24,6.49,6.87
+italy,Italy,6.29,2.76,3.35,7.08,8.36,4.31
+japan,Japan,5.78,5.93,6.5,8.44,8.26,5.48
+open-economy-avg,Open Economy Avg,6.85,5.51,4.59,7.95,8.29,5.61
+south-korea,South Korea,3.21,4.99,5.38,7.59,6.76,3.18
+spain,Spain,7.91,5.14,2.8,8.87,8.27,4.91
+united-kingdom,United Kingdom,8.34,7.61,5.96,9.41,9.68,6.3
+united-states,United States,7.35,6.8,6.8,9.24,7.55,7.84

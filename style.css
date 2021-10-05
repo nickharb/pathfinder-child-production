@@ -1,0 +1,440 @@
+/*
+Theme Name: Pathfinder Child Theme
+Theme URI: http://underscores.me/
+Author: Flynn O\'Connor
+Author URI: http://underscores.me/
+Description: Child Theme for Atlantic Council subsites.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: atlantic-council
+Template: atlantic-council
+*/
+
+/* base styles */
+
+html, body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 782px) {
+    html {
+         margin-top: 0 !important; 
+    }
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: #101010;
+    box-sizing: border-box;
+}
+
+/*main {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 80px 40px;
+}*/
+
+/* links */
+
+a {
+    color: #122431;
+    text-decoration: underline;
+    transition: color 200ms;
+}
+
+a:hover {
+    color: #234462;
+}
+
+::selection {
+    background: #ACCEF7;
+    color: #122431;
+}
+
+#content h2 {
+    padding: 0;
+    color: #122431;
+}
+
+/* buttons and user input */
+
+label {
+    display: block;
+}
+
+#pathfinder-dashboard-container button {
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-padding: 5px 10px;
+    padding: 5px 10px;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    color: #234462;
+    background-color: #E7EDF3;
+    font-weight: bold;
+}
+
+#pathfinder-dashboard-container button {
+    background-color: #122431;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 300ms;
+}
+
+#pathfinder-dashboard-container button svg {
+    margin-left: 20px;
+}
+
+#pathfinder-dashboard-container button:hover {
+    background-color: #234462;
+}
+
+#pathfinder-dashboard-container button:active {
+    background-color: #122431;
+}
+
+/* typography */
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #122431;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+
+/* site header & navigation */
+
+.gta-site-header {
+    padding: 0 35px;
+}
+
+.cp-logo {
+    max-width: 230px;
+    margin-left: -3px;
+}
+
+#site-nav {
+    background: #fff;
+    padding: 20px 35px;
+}
+
+@media (max-width: 768px) {
+    #site-nav {
+        padding: 10px 15px 0;
+    }
+}
+
+ul#primary-nav {
+    -webkit-box-flex: inherit;
+    flex-grow: inherit;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    ul#primary-nav {
+        display: flex;
+        justify-content: center;
+        margin: 20px -10px 0;
+    }
+
+    #site-nav #primary-nav li {
+        padding: 0;
+        margin: 0 10px;
+    }
+}
+
+ul#primary-nav a {
+    color: #122431;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+}
+
+.gta-site-nav--row {
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #122431;
+    padding-bottom: 20px;
+}
+
+.gta-site-nav--branding {
+    padding: 0;
+    margin-right: 40px;
+}
+
+/* site content */
+
+/*.site-content {
+    margin: 40px 35px 0;
+}*/
+
+.o-page--content {
+    padding: 20px 0 0;
+}
+
+/* site content */
+
+.about-blurb .et_pb_main_blurb_image {
+    width: 160px !important;
+}
+
+/* hide the atlantic council sharing buttons */
+.gta-hover-share-container  {
+    display: none;
+}
+
+
+
+/* divi overrides */
+
+#et-boc .et-l h1, #et-boc .et-l h2, #et-boc .et-l h3, #et-boc .et-l h4, #et-boc .et-l h5, #et-boc .et-l h6 {
+    color: #122431;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    /*margin: 0 0 30px;*/
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+#et-boc .et-l h1 {
+    font-size: 38px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+#et-boc .et-l h2 {
+    font-size: 22px;
+}
+
+#et-boc .et-l p {
+    padding-bottom: 30px;
+}
+
+.et-db #et-boc .et-l .et_pb_text_2 h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.et-db #et-boc .et-l .et_pb_blurb_0.et_pb_blurb .et_pb_module_header {
+    padding: 0;
+}
+
+.gta-site-header {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.et-db #et-boc .et-l .et_pb_section {
+    padding: 10px 0;
+}
+
+.et-db #et-boc .et-l .et_pb_row {
+    max-width: 1280px;
+}
+
+.et-db #et-boc .et-l .et_pb_section_0 {
+    margin-top: 0 !important;
+}
+
+.svelte-14sehrr {
+    margin-top: -30px !important;
+}
+
+
+/* atlantic council overrides */
+
+.site-content {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 40px 35px 0;
+}
+
+@media (max-width: 768px) {
+    .site-content {
+        padding: 10px 15px 0;
+    }
+}
+
+.site-content ol, .site-content ul {
+    list-style: inherit;
+    margin-left: 0;
+}
+
+ul#primary-nav a {
+    color: #122431;
+}
+
+ul#primary-nav a:hover {
+    color: #234462;
+}
+
+.gta-footer {
+    background-color: #122431;
+}
+
+.gta-footer--upper {
+    display: none;
+}
+
+.row {
+    max-width: inherit;
+}
+
+.tooltip p,
+.tooltip h3 {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
+
+.social-sharing button {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.description button {
+    font-weight: bold;
+    color: #fff;
+}
+
+#pathfinder-dashboard-container button.back {
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+button.back {
+    line-height: 1;
+    font-size: 14px;
+}
+
+#pathfinder-dashboard-container button.expand {
+    position: relative;
+    background-color: #EFF4F8;
+    color: #234462;
+    padding: 0 30px 0px 0;
+    margin-top: 10px;
+}
+
+/* supplemental indicators */
+
+@media (min-width: 768px) {
+    .et_pb_ajax_pagination_container {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 -20px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .et_pb_post {
+        width: 50%;
+        margin: 0 20px 20px !important;
+    }
+}
+
+.entry-featured-image-url {
+    margin-bottom: 10px !important;
+}
+
+.indicator-text button {
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.dive-deeper-section {
+    background-color: #EFF4F8 !important;
+}
+
+.dive-deeper-section {
+    width: 100vw !important;
+    position: relative !important;
+    left: 50% !important;
+    right: 50% !important;
+    margin-left: -50vw !important;
+    margin-right: -50vw !important;
+}
+
+.dive-deeper-section .et_pb_row {
+    width: auto !important;
+    max-width: 1280px !important;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+}
+
+.dive-deeper-section h1 {
+    /*font-size: 38px !important;
+    font-weight: 600 !important;*/
+}
+
+
+@media (max-width: 450px) {
+    .country-toggle-box {
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

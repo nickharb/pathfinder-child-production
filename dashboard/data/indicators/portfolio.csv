@@ -1,0 +1,14 @@
+﻿id,country,portfolio_1.1,portfolio_1.2,portfolio_2.1.1,portfolio_2.1.2,portfolio_2.2.1,portfolio_2.2.2
+australia,Australia,1.01,0.89,1.00,1.00,1.00,0.50
+canada,Canada,1.11,1.45,1.00,1.00,1.00,1.00
+china,China,0.07,0.13,0.00,0.00,0.00,0.50
+china-2010,China 2010,0.03,0.08,0.00,0.00,0.00,0.20
+france,France,2.15,0.84,1.00,1.00,1.00,1.00
+germany,Germany,1.36,0.66,1.00,0.50,1.00,0.50
+italy,Italy,1.13,0.82,1.00,1.00,1.00,1.00
+japan,Japan,1.00,0.82,1.00,1.00,1.00,1.00
+open-economy-avg,Open Economy Avg,1.19,0.94,1.00,0.90,0.95,0.90
+south-korea,South Korea,0.33,0.70,1.00,1.00,0.50,1.00
+spain,Spain,1.28,0.63,1.00,1.00,1.00,1.00
+united-kingdom,United Kingdom,1.74,1.56,1.00,1.00,1.00,1.00
+united-states,United States,0.82,1.06,1.00,0.50,1.00,1.00

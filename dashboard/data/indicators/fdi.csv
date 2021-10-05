@@ -1,0 +1,14 @@
+﻿id,country,fdi_1.1,fdi_1.2,fdi_2.1,fdi_2.2
+australia,Australia,51.91765972,41.9703727,1,1
+canada,Canada,66.92766169,98.78483471,1,1
+china,China,21.39385241,15.59402584,0.25,0
+china-2010,China 2010,25.78534728,5.573763573,0,0
+france,France,31.98806656,56.44374529,1,1
+germany,Germany,31.26376752,45.93502725,0.6,0.6
+italy,Italy,25.75531393,27.78185985,1,1
+japan,Japan,4.344048205,34.80974439,1,1
+open-economy-avg,Open Economy Avg,42.13132274,47.55591,0.8,1
+south-korea,South Korea,12.40114169,22.25506664,0.5,0.5
+spain,Spain,63.53036962,42.43879586,1,1
+united-kingdom,United Kingdom,81.43401989,69.44751634,0.8,0.85
+united-states,United States,51.7511786,35.69212917,1,1
